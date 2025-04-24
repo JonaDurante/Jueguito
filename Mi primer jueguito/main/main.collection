@@ -1,0 +1,13 @@
+name: "main"
+instances {
+  id: "player"
+  prototype: "/main/player.go"
+  position {
+    x: 385.0
+    y: 257.0
+  }
+  scale3 {
+    x: 1.069397
+  }
+}
+scale_along_z: 0

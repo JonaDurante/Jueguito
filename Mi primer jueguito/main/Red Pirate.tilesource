@@ -1,0 +1,59 @@
+image: "/userimage/red_ghost_pirate-375557-0.png"
+tile_width: 192
+tile_height: 192
+collision_groups: "default"
+animations {
+  id: "idle_down"
+  start_tile: 12
+  end_tile: 12
+  fps: 10
+}
+animations {
+  id: "idle_left"
+  start_tile: 14
+  end_tile: 14
+  fps: 10
+}
+animations {
+  id: "idle_right"
+  start_tile: 6
+  end_tile: 6
+  playback: PLAYBACK_NONE
+  fps: 10
+}
+animations {
+  id: "idle_up"
+  start_tile: 4
+  end_tile: 4
+  fps: 10
+}
+animations {
+  id: "walk_down"
+  start_tile: 9
+  end_tile: 12
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 8
+}
+animations {
+  id: "walk_left"
+  start_tile: 13
+  end_tile: 16
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 8
+}
+animations {
+  id: "walk_right"
+  start_tile: 5
+  end_tile: 8
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 8
+}
+animations {
+  id: "walk_up"
+  start_tile: 1
+  end_tile: 4
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 8
+}
+extrude_borders: 2
+sprite_trim_mode: SPRITE_TRIM_MODE_4
